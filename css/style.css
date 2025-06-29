@@ -35,22 +35,36 @@ header {
   border-color: #4364F7;
 }
 
-/* Nuevos estilos para las imágenes de las tarjetas */
+/* Nuevos estilos para imágenes en tarjetas */
 .card-img-top {
   width: 100%;
-  height: 200px; /* Ajusta el alto a tu gusto */
-  object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
-}
-/* Contenedor del carrusel para limitar el ancho */
-.carousel {
-  width: 100%;
-  margin: 0 auto; /* Centrado horizontal */
+  height: 200px;
+  object-fit: cover;
 }
 
-/* Estilos para las imágenes dentro del carrusel */
+.carousel {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .carousel .carousel-item img {
-  width: 50%; /* Ocupa todo el ancho del carrusel */
-  height: calc(100vw * 0.4); /* Calcula el alto como el 60% del 80% del ancho */
-  object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
+  width: 50%;
+  height: calc(100vw * 0.4);
+  object-fit: cover;
   display: block;
+}
+
+/* ⭐ Efecto flotante para la imagen destacada */
+.floating-container {
+  display: inline-block;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.floating-img {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.floating-img:hover {
+  transform: translateY(-12px) scale(1.03);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
