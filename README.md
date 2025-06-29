@@ -25,4 +25,3 @@ Este proyecto es un sitio web básico que informa sobre ciberseguridad, con un e
 2. Abre cualquiera de los archivos `.html` en un navegador moderno.
 3. Navega por las páginas usando el menú.
 4. Para modificar contenido, edita los archivos HTML, CSS o JS según corresponda.
-5. Ayuda de Chat GPT
